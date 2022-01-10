@@ -2,6 +2,7 @@
 title: "My First Post"
 date: 2022-01-08T18:34:24-05:00
 draft: false
+tags: ["test", "hugo", "site"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at lacinia quam. Proin bibendum tincidunt nibh lobortis bibendum. Phasellus et luctus tortor. Vivamus laoreet eleifend odio at aliquam. Pellentesque sit amet purus et odio rhoncus venenatis vitae sit amet ipsum. Quisque eget enim mattis, maximus nibh sed, convallis arcu. Suspendisse dignissim finibus finibus. Maecenas ultrices, augue ut aliquet sollicitudin, risus risus sodales tortor, at hendrerit ante tellus quis felis. Vivamus auctor rhoncus auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis sem magna, convallis imperdiet rhoncus in, gravida eu augue.

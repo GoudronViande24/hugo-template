@@ -1,3 +1,51 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+defaultContentLanguage = "en"
+theme = "simple-hugo-theme"
 title = "Sample Hugo website"
+
+[menu]
+	[[menu.main]]
+		name = "Home"
+		pre = "bi bi-house-fill"
+		url = "/"
+		weight = 1
+	[[menu.main]]
+		name = "Posts"
+		pre = "bi bi-pen-fill"
+		url = "/posts/"
+		weight = 2
+	[[menu.main]]
+		name = "Tags"
+		url = "/tags/"
+		weight = 3
+	[[menu.main]]
+		name = "External"
+		url = "https://github.com/GoudronViande24"
+		weight = 4
+
+[params]
+	copyright = "GoudronViande24" # Copyright in the footer
+	copyrightURL = "https://github.com/GoudronViande24" # Link on the footer copyright
+	
+	# Link custom assets relative to /static
+  customCSS = []
+  customJS = []
+  favicon = "favicon.png"
+
+	# Show credit to the theme in footer.
+	# You can disable it, but consider keeping it since it helps a lot to support the devs.
+	showCredit = true
+
+	# Parameters for the home page
+	[params.homepage]
+		title = "Sample Hugo Website" # Page title
+		description = "Simple website made with Hugo, based on a simple Bootstrap 5 theme. Customizable, easy to use. Dark theme available, based on user's device preference." # Description that shows on home page right under the page title
+		template = "list" # Template for the home page. Possible values: "boxes", "list".
+
+	# Texts of the website
+	# Useful for translating
+	[params.texts]
+		latest_posts = "Latest posts" # Homepage
+		read_more = "Read more" # Homepage
+		theme = "Theme" # Footer
+		page_not_found = "Page not found." # 404 error page
