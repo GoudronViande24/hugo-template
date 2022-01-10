@@ -11,15 +11,17 @@ title = "Sample Hugo website"
 		weight = 1
 	[[menu.main]]
 		name = "Posts"
-		pre = "bi bi-pen-fill"
+		pre = "bi bi-newspaper"
 		url = "/posts/"
 		weight = 2
 	[[menu.main]]
 		name = "Tags"
+		pre = "bi bi-tags-fill"
 		url = "/tags/"
 		weight = 3
 	[[menu.main]]
 		name = "External"
+		pre = "bi bi-box-arrow-up-right"
 		url = "https://github.com/GoudronViande24"
 		weight = 4
 
@@ -36,16 +38,26 @@ title = "Sample Hugo website"
 	# You can disable it, but consider keeping it since it helps a lot to support the devs.
 	showCredit = true
 
+	# Menu options
+	menuTemplate = "centered" # Possible values: "centered", "title", "logo".
+	menuTitle = "Sample Website" # Shows in template "title"
+	menuLogo = "/favicon.png" # URL to logo. Shows in template "logo".
+	menuLogoMaxHeight = "30px" # Max height for the logo. Leave empty for none.
+
 	# Parameters for the home page
 	[params.homepage]
 		title = "Sample Hugo Website" # Page title
 		description = "Simple website made with Hugo, based on a simple Bootstrap 5 theme. Customizable, easy to use. Dark theme available, based on user's device preference." # Description that shows on home page right under the page title
 		template = "list" # Template for the home page. Possible values: "boxes", "list".
+	
+	[params.lists]
+		template = "boxes" # Template for list pages. Possible values: "boxes", "list".
 
 	# Texts of the website
 	# Useful for translating
 	[params.texts]
 		latest_posts = "Latest posts" # Homepage
 		read_more = "Read more" # Homepage
+		see_all = "See all" # Homepage
 		theme = "Theme" # Footer
 		page_not_found = "Page not found." # 404 error page
