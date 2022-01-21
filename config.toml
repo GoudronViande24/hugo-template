@@ -28,6 +28,8 @@ title = "Sample Hugo website"
 [params]
 	copyright = "GoudronViande24" # Copyright in the footer
 	copyrightURL = "https://github.com/GoudronViande24" # Link on the footer copyright
+
+	defaultColorScheme = "light" # Default color scheme for devices that does not specify it. Possible values: "light" (recommended), "dark".
 	
 	# Link custom assets relative to /static
   customCSS = []
